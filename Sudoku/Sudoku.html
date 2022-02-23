@@ -1,0 +1,48 @@
+<!--Mary Curran Web Design Final-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0;">  
+</head>
+<body>
+	<h1>Sudoku</h1>
+
+	<!--Timer-->
+	 <div class="container">
+
+        <div id="display">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" onclick="startStop()">Start</button> <button id="reset" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <section id="page">
+        <div id="sTable"></div>
+    </section>
+    <section>
+        <div class="select">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+	<script type="text/javascript" src="timer.js"></script>
+</body>
+</html>
